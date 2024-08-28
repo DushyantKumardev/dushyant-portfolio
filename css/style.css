@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/*------------------- universal styling----------------------------  */
+
+/* 1. colors  */
+.aside-bgc{
+  background-color: #1c1c1c;
+}
+.dark-bgc{
+  background-color: #161616;
+}
+.dark-light-bgc{
+  background-color: #333333;
+}
+.text-white{
+  color: #F6f6f6;
+}
+.text-grey{
+  color: #858585;
+}
+
+/* 2. links */
+.link{
+  text-decoration: none;
+}
+
+/* 3. buttons */
+.btn{
+  padding: 8px 16px;
+  
+}
+
+/* 4. margin  */
+.mb20{
+  margin-bottom: 20px;
+}
+
+
+/*---------------- Styling Start-------------------  */
+
+
+/* ----- aside nav desktop -----  */
+.nav-desktop{
+  width: 240px;
+  height:100vh ;
+  position: fixed;
+  left: 0;
+}
+
+/*----------- main ----------------*/
+.main{
+  margin-left: 240px;
+  width: 100%;
+  min-height: 100vh;
+}
