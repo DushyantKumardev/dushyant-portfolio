@@ -7,12 +7,13 @@ body{
   font-family: Arial, sans-serif;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 /*------------------- universal styling----------------------------  */
 
 /* 1. colors  */
-.aside-bgc{
+.nav-desktop-bgc , .nav-mobile-bgc{
   background-color: #1c1c1c;
 }
 .dark-bgc{
@@ -20,6 +21,12 @@ body{
 }
 .dark-light-bgc{
   background-color: #333333;
+}
+.solid-dark-bgc{
+  background-color: #161616;
+}
+.bgc-grey{
+  background-color: #858585;
 }
 .text-white{
   color: #F6f6f6;
@@ -39,9 +46,77 @@ body{
   
 }
 
+
 /* 4. margin  */
 .mb20{
   margin-bottom: 20px;
+}
+.ml20{
+  margin-left: 20px;
+}
+
+/* 5. display flex  */
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-start{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.flex-space{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fd-row{
+  flex-direction: row;
+}
+.fd-column{
+  flex-direction: column;
+}
+.gap-10{
+  gap: 10px;
+}
+.gap-20{
+  gap: 20px;
+}
+.gap-100{
+  gap: 100px;
+}
+
+/* 6. list style none */
+.list-style-none{
+  list-style: none;
+}
+
+/* 7. borders */
+b-l{
+  border-left: 1px solid #ccc;
+}
+.br-50{
+  border-radius: 50%;
+}
+
+/* 8. Fonts  */
+.font-size-18{
+  font-size: 18px;
+}
+.font-size-14{
+  font-size: 14px;
+}
+
+/* 9. svg */
+
+/* . clear div  */
+.clear-div-v{
+  height: 78px;
+  width: 100px;
+  margin: 0 10px;
+  background-color: #2c2c2c;
+  
 }
 
 
@@ -50,11 +125,14 @@ body{
 
 /* ----- aside nav desktop -----  */
 .nav-desktop{
-  width: 240px;
-  height:100vh ;
   position: fixed;
   left: 0;
+  width: 240px;
+  padding: 16px;
+  height: 100%;
+
 }
+
 
 /*----------- main ----------------*/
 .main{
