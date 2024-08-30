@@ -372,7 +372,7 @@
         </ul>
     </aside>
 
-    <!-- Show Nav Desktop (Aside) Btn  -->
+    <!-- Show Nav Desktop (Aside) Menu Btn  -->
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
         class="lucide lucide-menu text-grey p-absolute t-5 l-0 d-hidden" id="showSidebarBtn">
@@ -384,7 +384,25 @@
     <!---------- Main Content Page --------->
 
     <main id="main" class="main solid-dark-bgc">
+        <div class="content d-flex fd-column gap-20">
 
+            <div class="">
+                <h1 class="text-white font-size-48">Hey, I'm jack.</h1>
+                <h1 class="text-white font-size-48">I design <span class="text-grey">websites.</span></h1>
+            </div>
+            <div class="w-75">
+                <p class="text-grey font-size-18 ">"I create stunning and functional websites that make your ideas
+                    shine. Let’s turn your vision
+                    into reality!"</p>
+            </div>
+
+            <div class="btn-container ">
+                <a href="#" class=" link text-white cta-btn">Get Started</a>
+            </div>
+
+
+
+        </div>
     </main>
 
     <!---------- Footer --------->
@@ -402,7 +420,7 @@
                 .then(data => {
                     document.getElementById('preloader').innerHTML = data;
                 });
-     });
+        });
     </script>
 
 </body>
