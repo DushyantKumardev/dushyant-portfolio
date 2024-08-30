@@ -71,6 +71,7 @@ body {
 /* 5. display flex  */
 .d-hidden {
   display: none;
+  transition: ease 1s;
 }
 .d-flex {
   display: flex;
