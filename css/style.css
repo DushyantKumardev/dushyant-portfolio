@@ -278,13 +278,11 @@ b-l {
   border-left:2px solid #ffae00;
   border-radius: 10px;
   z-index: -1;
-transform-origin: center;
+transform-origin: right;
 transition: transform .3s;
 
 }
-.cta-btn:hover{
-  border: none;
-}
+
 .cta-btn:hover::before {
   transform: rotate(360deg);
 }
