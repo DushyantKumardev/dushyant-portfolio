@@ -55,7 +55,11 @@ width: 18px;  }
   .content {
     /* padding: 48px 48px 0px; */
   }
-  
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
   
 }
 

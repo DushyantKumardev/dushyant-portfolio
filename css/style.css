@@ -63,9 +63,23 @@ body {
 .mt20 {
   margin-top: 20px;
 }
-
+.p20{
+  padding: 20px;
+}
 .pb20 {
   padding-bottom: 20px;
+}
+.pl10{
+  padding-left: 10px;
+}
+.pr10{
+  padding-right: 10px;
+}
+.pt10{
+  padding-top: 10px;
+}
+.pb10{
+  padding-bottom: 10px;
 }
 
 /* 5. display flex  */
@@ -285,4 +299,34 @@ transition: transform .3s;
 
 .cta-btn:hover::before {
   transform: rotate(360deg);
+}
+
+/* ------Project Section ------- */
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 60px;
+}
+.grid-item{
+}
+.card{
+  background-color: #1c1c1c;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #333333;
+}
+.project-img{
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+.project-detail{
+  padding: 16px;
+}
+.price{
+
+  padding: 2px 12px;
+  border-radius: 20px;
+  background-color: #333333;
 }
